@@ -22,4 +22,4 @@
 - cada usuário pode pertencer a mais de uma grupo
 - as permissões vinculadas ao grupo, função ou usuário são chamdas de policys (políticas)
 - as policys tem um formato json, descreve as permissões do usuário em relação aos serviços
-- como boa prática, devemos seguir o permicionamento minimo, ou seja, dê permissão apenas o que o usuário realmente precisa.
+- como boa prática, devemos seguir o permissionamento minimo, ou seja, dê permissão apenas o que o usuário realmente precisa.

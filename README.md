@@ -33,3 +33,11 @@
 ## Organizações da aws
 - serviço oferecido pela aws, com intuito de administrar/gerenciar centralmente várias contas diferentes
 - existe a conta raiz, conta de gerenciamento e contas membros
+
+### Conta raiz
+- conta principal
+- abaixo segue as principais desvantagens no uso da conta root:
+  - todos os novos usuários precisaram passar pela conta root
+  - segregar ambientes por região é uma má pratica
+  - dificuldade para gerar relatórios de faturamento por região
+  - conta principal exposta 

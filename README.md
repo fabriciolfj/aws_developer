@@ -41,3 +41,15 @@
   - segregar ambientes por região é uma má pratica
   - dificuldade para gerar relatórios de faturamento por região
   - conta principal exposta 
+
+### Contas membros e unidades organizacionais (OUs)
+- essas contas são criadas para havar uma segregação de funções e responsabilidades
+- ous são usadas para agrupar contas membro
+- elas podem herdar a estrutura organizacional, mas não se limita a ela
+- com o uso dessas contas, a conta root passará ser acessível somente pelo usuario root
+- cada conta membro serve a um propósito específico
+- por exemplo:
+  -  conta membro para identidade, onde todos os usuários, funções e grupos do iam serão criados
+  -  conta de desenvolvimento
+  -  conta de homologação
+  -  conta de produção 

@@ -24,3 +24,12 @@
 - as policys tem um formato json, descreve as permissões do usuário em relação aos serviços
 - como boa prática, devemos seguir o permissionamento minimo, ou seja, dê permissão apenas o que o usuário realmente precisa.
 - um ponto importante que grupos não podem ter outros grupos
+
+## Route53
+- podemos registrar um dominio e usar ele como um alias (apelido) vinculado dominio criado para o load balance
+- dessa forma ao bater no dominio nosso, ele redirecionará ao load balance
+- no arquivo criar-route-53.txt explica como efetuar tal processo.
+
+## Organizações da aws
+- serviço oferecido pela aws, com intuito de administrar/gerenciar centralmente várias contas diferentes
+- existe a conta raiz, conta de gerenciamento e contas membros
